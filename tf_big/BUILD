@@ -16,7 +16,7 @@ cc_binary(
         "@local_config_tf//:tf_header_lib",
         "@libgmp//:lib"
     ],
-    copts = ["-pthread", "-std=c++11", "-D_GLIBCXX_USE_CXX11_ABI=0", "-fPIC"],
+    copts = ["-pthread", "-std=c++11", "-D_GLIBCXX_USE_CXX11_ABI=1", "-fPIC"],
 )
 
 py_library(
